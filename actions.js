@@ -8,7 +8,7 @@ img1.src = src;
 };
 
 let imagePath = (frameNumber,animation) => {
-    return "E:/website/pics/" +animation+"/"+ frameNumber + ".png";
+    return "pics/" +animation+"/"+ frameNumber + ".png";
 };
 
 let frames = {
@@ -98,13 +98,6 @@ let animate = (ctx,images,animation,callback) => {
             {
                 queuedAnimations.push("p");  
             }
-            else if(key==="ArrowUp")
-            {
-                queuedAnimations.push("b");  
-            }
-            else if(key==="ArrowDown")
-            {
-                queuedAnimations.push("f");  
-            }
+            
         });
   });
