@@ -53,7 +53,7 @@ let animate = (context1,images,animation,callback) => {
         });
         setTimeout(callback,images[animation].length * 100);
     };
-    loadImages1((images)=> {
+    loadImages((images)=> {
         //let selectedAnimation = "idle";
         let queuedAnimations = [];
         let aux = () =>{
