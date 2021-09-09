@@ -43,7 +43,7 @@ let imagesToLoad = 0;
 });
 };
 
-let animate = (ctx,images,animation,callback) => {
+let animate = (context1,images,animation,callback) => {
     images[animation].forEach((image,index) => {
         setTimeout(() => {
             context1.clearRect(0,0,500,500);
