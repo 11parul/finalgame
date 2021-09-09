@@ -8,7 +8,7 @@ img1.src = src;
 };
 
 let imagePath = (frameNumber,animation) => {
-    return "pics/" +website+"/"+ frameNumber + ".png";
+    return "pics/" + frameNumber + ".png";
 };
 
 let frames = {
