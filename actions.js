@@ -21,7 +21,7 @@ let frames = {
     b:[1,2,3,4,5,6],
 };
 
-let loadImages1 = (callback) => {
+let loadImages = (callback) => {
 let images = {i:[], k:[], p:[], f:[], bl:[], b:[]};
 let imagesToLoad = 0;
 
